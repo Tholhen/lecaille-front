@@ -1,0 +1,3 @@
+export const CONNECT_USER = "CONNECT_USER";
+export const LOGOUT_USER = "LOGOUT_USER";
+export const REFRESH_USER_INFOS = "REFRESH_USER_INFOS";

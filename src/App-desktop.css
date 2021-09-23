@@ -1,0 +1,348 @@
+@media only screen and (min-width : 1224px) {
+    /****************/
+    /** NAV HEADER **/
+    /****************/
+
+    .header-nav-container{
+        padding-left: 3em;
+        padding-right: 3em;
+        width:93%;
+    }
+
+    .header-nav-logo-container{
+        display: block;
+        width:12%;
+    }
+
+    .header-nav-logo-big{
+        width:100%;
+    }
+
+    .header-nav-logo-small{
+        margin-top:0.5em;
+        width:30%;
+    }
+
+    .header-nav-desktop{
+        width:30%;
+    }
+
+    .header-nav{
+        width:13%;
+        margin-right:0;
+    }
+    
+    /*****************/
+    /** HEADER HOME **/
+    /*****************/
+
+    .headerhome-content{
+        flex-direction: row;
+        justify-content: space-between;
+        width:70%;
+    }
+
+    .headerhome-logo{
+        display:none;
+    }
+
+    .headerhome-content h1{
+        text-align: left;
+        
+    }
+
+    .fisherman-home{
+        display:block;
+        width:30em;
+    }
+
+    /************/
+    /** HEADER **/
+    /************/
+    .header-container{
+        padding:0;
+    }
+
+    .header-content-container{
+        display:none;
+    }
+
+    /******************/
+    /** HEADER PAGES **/
+    /******************/
+
+    .waves-header-pages img{
+        transform: scale(5,1);
+        left:20em;
+    }
+
+    /************/
+    /** FOOTER **/
+    /************/
+
+    .footer-container{
+        width:100%;
+    }
+
+    .footer-logo-text{
+        width:10em;
+    }
+    
+    .logo-half{
+        width:10em;
+    }
+
+    /**********/
+    /** HOME **/
+    /**********/
+    
+    .wave-categories-home img{
+        transform: scale(8,2);
+    }
+  
+    .product-categories-content-home{
+      width:60%;
+    }
+
+    .product-categories-content-home article section{
+      width: 8em;
+      height: 8em;
+    }
+    
+    /* Présentation générale des produits */
+    .products-presentation-home{
+      flex-direction: row-reverse;
+      justify-content:space-between;
+      width:65%;
+    }
+
+    /* Product counter */
+    .product-counter{
+      width:35em;
+    }
+
+    /* Présentation générale des produits (texte)*/
+    .products-presentation-home-text{
+        width:40%;
+        font-size: 1.25em;
+        line-height: 1.5em;
+    }
+
+    /* Derniers avis clients */
+    
+    .latest-shop-opinions-container{
+        width:70%;
+    }
+
+    /* PopUp d'ajout d'avis */
+    .shop-opinion-popup-form{
+      display:flex;
+      flex-direction: column;
+      justify-content:center;
+    }
+  
+    .shop-opinion-popup-preview{
+      display:flex;
+      flex-direction: column;
+      align-items:center;
+    }
+  
+    .shop-opinion-popup-preview label{
+      display:flex;
+      justify-content:center;
+    }
+    .shop-opinion-popup-preview img{
+      width:100%;
+    }
+  
+    /***********/
+    /** ADMIN **/
+    /***********/
+
+    /****************/
+    /** ADMIN MENU **/
+    /****************/
+
+    .admin-menu-content{
+        width:50%;
+    }
+    .admin-menu-item img{
+        width:3em;
+    }
+
+    /*****************/
+    /** ADMIN USERS **/
+    /*****************/
+
+    .users-list-item section{
+        width:25%;
+    }
+
+    .users-list-item section:last-child{
+        width:8%;
+    }
+
+    .user-item-city{
+        display:block;
+    }
+
+    /*********************/
+    /** ADMIN USER EDIT **/
+    /*********************/
+
+    .user-edit-container{
+        width:40%;
+    }
+
+    /********************/
+    /** ADMIN PRODUCTS **/
+    /********************/
+
+    .admin-product-list{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width:100%;
+    }
+
+    .admin-product-list-item{
+        width:15%;
+    }
+
+    /************************/
+    /** ADMIN PRODUCTS ADD **/
+    /************************/
+
+    .product-add-edit-container{
+        width:40%;
+    }
+
+    .product-add-file-preview{
+        width:30%;
+    }
+
+    /***********************/
+    /** ADMIN DAILY STAND **/
+    /***********************/
+    
+    .admin-dailystand-items{
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .admin-dailystand-items article{
+        width:30em;
+    }
+
+
+    /*************************/
+    /** ADMIN SHOP OPINIONS **/
+    /*************************/
+    .shop-opinions-container{
+        width:40%;
+    }
+
+    /*************************/
+    /** ADMIN COMMANDE EDIT **/
+    /*************************/
+
+    .admin-request-container{
+        width:40%;
+    }
+
+    /*************/
+    /** CONTACT **/
+    /*************/
+
+    .contact-infos-container{
+        justify-content:space-between;
+        width:80%;
+        margin-bottom:5em;
+    }
+
+    .contact-infos-item{
+        width:20%;
+        margin:0;
+    }
+
+    .contact-form-container form{
+        width:40%;
+    }
+
+    /*************/
+    /** PROFILE **/
+    /*************/
+    
+    .profile-user-infos-container{
+        width:50%;
+    } 
+
+    .profile-user-requests-container{
+        width:60%;
+    }
+
+    /****************/
+    /* ETAL DU JOUR */
+    /****************/
+
+    .dailystand-container{
+        width:40%;
+    }
+
+    /************/
+    /* BOUTIQUE */
+    /************/
+    .shop-container{
+        flex-direction:row-reverse;
+        align-items:flex-start;
+        width:60%;
+    }
+
+    .shop-aside{
+        width:35%;
+        margin-right: 2em;
+    }
+    
+    /***********/
+    /* PRODUCT */
+    /***********/
+
+    .product-container{
+        width:60%;
+        align-items: flex-start;
+    }
+
+    .product-content{
+        display:flex;
+        justify-content:center;
+        width:100%;
+
+    }
+
+    .product-presentation{
+        width:60%;
+    }
+
+    /**********/
+    /* BASKET */
+    /**********/
+
+    .basket-container{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width:80%;
+        min-height: 50vh;
+    }
+
+    .basket-content-container{
+        width:60%;
+    }
+
+    .empty-basket{
+        width:100%;
+    }
+    .basket-resume{
+        width:25em;
+    }
+}
