@@ -1,5 +1,5 @@
 export const config = {
-	api_url: "https://lecaille-test.herokuapp.com/",
+	api_url: "https://lecaille-test.herokuapp.com",
 	product_pict_url: "https://lecaille-test.herokuapp.com/images/products/",
 	shop_opinion_pict_url: "https://lecaille-test.herokuapp.com/images/opinions/shop/",
 	dailystand_detail_pict_url: "https://lecaille-test.herokuapp.com/images/dailystand/",
