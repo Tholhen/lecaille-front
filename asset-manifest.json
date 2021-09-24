@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/lecaille-front/static/css/main.b03c1144.chunk.css",
-    "main.js": "/lecaille-front/static/js/main.2d2a4376.chunk.js",
-    "main.js.map": "/lecaille-front/static/js/main.2d2a4376.chunk.js.map",
+    "main.js": "/lecaille-front/static/js/main.eccc9870.chunk.js",
+    "main.js.map": "/lecaille-front/static/js/main.eccc9870.chunk.js.map",
     "runtime-main.js": "/lecaille-front/static/js/runtime-main.fa24d216.js",
     "runtime-main.js.map": "/lecaille-front/static/js/runtime-main.fa24d216.js.map",
     "static/css/2.6b560088.chunk.css": "/lecaille-front/static/css/2.6b560088.chunk.css",
@@ -51,6 +51,6 @@
     "static/css/2.6b560088.chunk.css",
     "static/js/2.8b2ea0e6.chunk.js",
     "static/css/main.b03c1144.chunk.css",
-    "static/js/main.2d2a4376.chunk.js"
+    "static/js/main.eccc9870.chunk.js"
   ]
 }
