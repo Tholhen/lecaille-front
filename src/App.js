@@ -101,6 +101,7 @@ function App() {
           <Route exact path="/shop/basket" component={RequireAuth(Basket, true)} />
           <Route exact path="/shop/request/success/:id" component={RequireAuth(RequestSuccess, true)}/>
           <Route exact path="/shop/dailystand" component={RequireAuth(DailyStand)} />
+          <Route render={() => <h1>404: page not found</h1>} />
         </Switch>
       </ThemeProvider>
     </div>
