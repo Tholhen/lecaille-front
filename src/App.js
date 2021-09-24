@@ -79,7 +79,7 @@ function App() {
           <Route exact path="/user/profile" component={RequireAuth(Profile,true)}/>
           <Route exact path="/user/logout" component={RequireAuth(Logout, true)} />
 
-          <Route path="/admin" component={RequireAuth(Admin,true,true)}/>
+          <Route exact path="/admin" component={RequireAuth(Admin,true,true)}/>
           <Route exact path="/admin/users" component={RequireAuth(AdminUsers,true,true)}/>
           <Route exact path="/admin/users/edit/:id" component={RequireAuth(AdminUserEdit,true,true)}/>
           <Route exact path="/admin/users/delete/:id" component={RequireAuth(AdminUserDelete,true,true)}/>
