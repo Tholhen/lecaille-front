@@ -113,11 +113,13 @@ const AdminProductAdd = (props) => {
                 setRedirect(true)
             }
             else {
+                console.log("Enregistrement de la photo")
                 saveProductPict(selectedFile)
                 .then(response => {
-                    datas.pict_url = response.data.url
+                    /*datas.pict_url = response.data.url
                     saveProduct(datas)
-                    setRedirect(true)
+                    setRedirect(true)*/
+                    console.log(response)
                 })  
             }
         }
